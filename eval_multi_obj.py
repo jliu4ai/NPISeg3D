@@ -1,7 +1,7 @@
 # ------------------------------------------------------------------------
 # Jie Liu
 # University of Amsterdam
-# The project is based on the code of AGILE3D，thanks to auhtors!
+# The project is modified from AGILE3D，thanks to auhtors!
 # ------------------------------------------------------------------------
 
 import argparse

@@ -1,6 +1,7 @@
 # ------------------------------------------------------------------------
-# Yuanwen Yue
-# ETH Zurich
+# Jie Liu
+# University of Amsterdam
+# The project is modified from AGILE3D，thanks to auhtors!
 # ------------------------------------------------------------------------
 
 import copy

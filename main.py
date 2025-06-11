@@ -1,7 +1,7 @@
 # ------------------------------------------------------------------------
 # Jie Liu
 # University of Amsterdam
-# The project is based on the code of AGILE3D，thanks to auhtors!
+# The project is modified from AGILE3D，thanks to auhtors!
 # ------------------------------------------------------------------------
 
 import argparse
@@ -23,7 +23,7 @@ import wandb
 import os
 
 def get_args_parser():
-    parser = argparse.ArgumentParser('AGILE3D', add_help=False)
+    parser = argparse.ArgumentParser('NPISeg3D', add_help=False)
 
     # dataset
     parser.add_argument('--dataset_mode', default='multi_obj')
@@ -259,7 +259,7 @@ def main(args):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser('AGILE3D training script', parents=[get_args_parser()])
+    parser = argparse.ArgumentParser('NPISeg3D training script', parents=[get_args_parser()])
     args = parser.parse_args()
     now = datetime.datetime.now()
     run_id = now.strftime("%Y-%m-%d-%H-%M-%S")

@@ -1,6 +1,7 @@
 # ------------------------------------------------------------------------
-# Yuanwen Yue
-# ETH Zurich
+# Jie Liu
+# University of Amsterdam
+# The project is modified from AGILE3D，thanks to auhtors!
 # ------------------------------------------------------------------------
 import torch
 import torch.nn as nn
@@ -26,7 +27,7 @@ def build_mlp(dim_in, dim_hid, dim_out, depth,last_bias=True):
     modules.append(nn.Linear(dim_hid, dim_out, bias=last_bias))
     return nn.Sequential(*modules)
 
-class Agile3d(nn.Module):
+class NPISeg3D(nn.Module):
     def __init__(self, backbone, hidden_dim, num_heads, dim_feedforward,
                  shared_decoder, num_decoders, num_bg_queries, dropout, pre_norm,
                  positional_encoding_type, normalize_pos_enc, hlevels,
@@ -596,11 +597,11 @@ class Agile3d(nn.Module):
             return [{"pred_masks": a} for a in outputs_seg_masks[:-1]]
 
 
-def build_agile3d(args):
+def build_npiseg3d(args):
 
     backbone = build_backbone(args)
 
-    model = Agile3d(
+    model = NPISeg3D(
                     backbone=backbone, 
                     hidden_dim=args.hidden_dim,
                     num_heads=args.num_heads, 
