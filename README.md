@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
 <h1 align="center">NPISeg3D: Probabilistic 3D Interactive Segmentation with Hierarchical Neural Processes</h1>
 <p align="center">
@@ -24,7 +25,10 @@
 </p>
 
 <p align="justify">
-<strong>NPISeg3D</strong> is a novel probabilistic model for interactive 3D segmentation, which supports strong few-shot generalization and reliable uncertainty estimation. NPISeg formulate interactive 3D segmentation in the neural process frameworks, with scene-level and object-level latent variables, NPISeg3D estabilished smooth information flow from scene to objects, and then clicks.
+<strong>NPISeg3D</strong> is a novel probabilistic model for interactive 3D segmentation, which supports strong few-shot generalization and reliable uncertainty estimation. NPISeg formulate interactive 3D segmentation in the neural process frameworks, with scene-level and object-level latent variables, NPISeg3D estabilished smooth information flow from scene to objects, and then clicks. See mask and uncertainty estimation example below:
+</p>
+<p align="center">
+<img src="./asset/examples.png" alt="Framework Overview" width="600"/>
 </p>
 
 ## News 📢
