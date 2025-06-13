@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <p align="center">
 <h1 align="center">NPISeg3D: Probabilistic 3D Interactive Segmentation with Hierarchical Neural Processes</h1>
 <p align="center">
