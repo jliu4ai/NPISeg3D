@@ -124,8 +124,7 @@ We adopt the same evaluation strategy as in AGILE3D. If you want to run the infe
 If you find our work useful, please cite:
 
 ```bibtex
-@article{your_paper,
-  title={NPISeg3D: Probabilistic Interactive 3D Segmentation with Heirarchical Neural Processes},
+@article{title={NPISeg3D: Probabilistic Interactive 3D Segmentation with Heirarchical Neural Processes},
   author={Jie Liu and Pan Zhou and Zehao Xiao and Jiayi Shen and Wenzhe Yin and Jan-Jakob Sonke and Efstratios Gavves},
   eprint={2505.01726},
   archivePrefix={arXiv},
